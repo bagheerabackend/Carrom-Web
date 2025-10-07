@@ -43,10 +43,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5em;
+    gap: 1em;
 }
 
-h2 {
+.legal h2, .links h2 {
+    margin-bottom: 0.1em;
     color: #fcc440;
 }
 
@@ -85,6 +86,11 @@ h2 {
         width: 15em;
         height: 5em;
     }
+
+    .links,
+    .legal {
+        gap: 1.5em;
+    }
 }
 
 /* H-Lap */
@@ -105,6 +111,11 @@ h2 {
     .logo {
         width: 15em;
         height: 5em;
+    }
+
+    .links,
+    .legal {
+        gap: 1.5em;
     }
 }
 </style>
