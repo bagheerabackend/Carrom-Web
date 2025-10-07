@@ -18,7 +18,7 @@
 .game-header {
     padding-inline: 2em;
     padding-block: 1em;
-    background-image: url('../../assets/images/Bg2.png');
+    background-image: url('../../assets/images/bg2.png');
     color: #adb5bd;
     font-family: sansation;
     background-size: cover;

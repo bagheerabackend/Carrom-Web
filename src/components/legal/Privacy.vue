@@ -159,7 +159,7 @@
 
 <style>
 .privacy {
-    background-image: url('../../assets/images/Bg2.png');
+    background-image: url('../../assets/images/bg2.png');
     padding-inline: 2em;
     padding-block: 1em;
     color: #adb5bd;
