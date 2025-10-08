@@ -336,6 +336,7 @@ export default {
     }
 
     .support-list {
+        margin: 0.5em 0;
         display: flex;
         align-items: center;
         gap: 0.5em;
