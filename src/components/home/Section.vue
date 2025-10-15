@@ -10,8 +10,8 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
         </div>
         <div class="desc-mobile">
             <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/offer.avif" />
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/fair.avif" />
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/support.avif" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/fair.avif" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/support.avif" />
         </div>
 
         <div class="game">
