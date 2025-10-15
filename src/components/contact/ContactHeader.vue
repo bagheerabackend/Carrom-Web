@@ -2,7 +2,7 @@
     <div class="contact-header">
         <div class="contact-header-right">
             <img alt="Bagheera carrom, About Bagheera Carrom" class="contact-header-poster"
-                src="../../assets/images/contact-header.svg" />
+                src="../../assets/images/contact/contact-header.svg" />
         </div>
         <div class="contact-header-left">
             <h1>Contact Us</h1>
@@ -16,7 +16,7 @@
 .contact-header {
     padding-inline: 2em;
     padding-block: 1em;
-    background-image: url('../../assets/images/bg2.png');
+    background-image: url('../../assets/images/bg2.avif');
     color: #adb5bd;
     font-family: sansation;
     background-size: cover;

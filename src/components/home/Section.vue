@@ -1,37 +1,40 @@
+<script setup lang="ts">
+import DownloadBtns from '../helpers/DownloadBtns.vue';
+
+</script>
+
 <template>
     <div class="section">
         <div class="desc">
-            <img alt="Bagheera carrom" class="section-desc" src="../../assets/images/section-desc.png" />
+            <img alt="Bagheera carrom" class="section-desc" src="../../assets/images/home/sectionDesc.avif" />
         </div>
         <div class="desc-mobile">
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/sect-mob-1.png" />
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/sect-mob-2.png" />
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/sect-mob-3.png" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/offer.avif" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/fair.avif" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/support.avif" />
         </div>
 
         <div class="game">
             <h3>Try out our games now...</h3>
             <div class="game-sec">
-                <img alt="Bagheera carrom" class="section-game-mob" src="../../assets/images/posterBg.svg" />
+                <img alt="Bagheera carrom" class="section-game-mob" src="../../assets/images/home/posterBg.avif" />
                 <div class="poster-container">
                     <img alt="Bagheera carrom 1" class="section-game-poster mob-hidden"
-                        src="../../assets/images/poster1.png" />
-                    <img alt="Bagheera carrom 3" class="section-game-poster" src="../../assets/images/poster3.png" />
+                        src="../../assets/images/home/poster1.avif" />
+                    <img alt="Bagheera carrom 3" class="section-game-poster" src="../../assets/images/home/poster3.avif" />
                     <img alt="Bagheera carrom 2" class="section-game-poster mob-hidden"
-                        src="../../assets/images/poster2.png" />
+                        src="../../assets/images/home/poster2.avif" />
                 </div>
-                <img alt="Bagheera carrom 2" class="download-btn" src="../../assets/images/downloadBtn.svg" />
             </div>
         </div>
 
         <div class="last-panel">
             <div class="left-panel">
-                <img alt="Bagheera carrom" class="section-text-2" src="../../assets/images/section-text-2.png" />
-                <img alt="Bagheera carrom 2" style="width: 12em;margin-top: 1em;"
-                    src="../../assets/images/downloadBtn.svg" />
+                <img alt="Bagheera carrom" class="section-text-2" src="../../assets/images/home/sectionText.avif" />
+                <DownloadBtns />
             </div>
             <div class="right-panel">
-                <img alt="Bagheera carrom" class="panther-img" src="../../assets/images/pantherImg.svg" />
+                <img alt="Bagheera carrom" class="panther-img" src="../../assets/images/home/pantherImg.avif" />
             </div>
         </div>
     </div>
@@ -40,7 +43,7 @@
 <style>
 .section {
     font-family: sansation;
-    background-image: url('../../assets/images/bg2.png');
+    background-image: url('../../assets/images/bg2.avif');
     height: fit-content;
     color: #adb5bd;
 }

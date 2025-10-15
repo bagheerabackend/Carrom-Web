@@ -107,16 +107,19 @@ const currentView = computed(() => {
 <style scoped>
 @font-face {
   font-family: sansation;
+  font-display: swap;
   src: url('/src/assets/font/Sansation-Regular.ttf');
 }
 
 @font-face {
   font-family: sansation-bold;
+  font-display: swap;
   src: url('/src/assets/font/Sansation-Bold.ttf');
 }
 
 @font-face {
   font-family: rammetto;
+  font-display: swap;
   src: url('/src/assets/font/RammettoOne-Regular.ttf');
 }
 

@@ -7,25 +7,25 @@
             constantly innovating to keep the excitement alive.
         </p>
         <img class="footer-img" alt="Bagheera carrom, About Bagheera Carrom"
-            src="../../assets/images/about-footer.svg" />
+            src="../../assets/images/about/footerPoster.avif" />
         <div class="footer-points">
             <div class="footer-contents">
                 <img alt="Bagheera carrom, About Bagheera Carrom" class="footer-point-imgs"
-                    src="../../assets/images/people.svg" />
+                    src="../../assets/images/about/people.svg" />
                 <h2>Inclusive Gaming</h2>
                 <p>Bagheera Carrom welcomes players of all backgrounds and skill levels. We believe in creating a
                     supportive and fun environment where everyone can enjoy the game.</p>
             </div>
             <div class="footer-contents">
                 <img alt="Bagheera carrom, About Bagheera Carrom" class="footer-point-imgs"
-                    src="../../assets/images/security.svg" />
+                    src="../../assets/images/about/security.svg" />
                 <h2>Fair Play</h2>
                 <p>Integrity is at the heart of our platform. Our anti-cheat mechanisms and transparent gameplay rules
                     ensure that every match is fair and competitive.</p>
             </div>
             <div class="footer-contents">
                 <img alt="Bagheera carrom, About Bagheera Carrom" class="footer-point-imgs"
-                    src="../../assets/images/rocket.svg" />
+                    src="../../assets/images/about/rocket.svg" />
                 <h2>Fast-Paced Action</h2>
                 <p>Enjoy quick matchmaking, responsive gameplay, and exciting challenges. Bagheera Carrom is built for
                     players who love thrilling, real-time action.</p>
@@ -38,7 +38,7 @@
 .about-footer {
     padding-inline: 2em;
     padding-block: 2em 3em;
-    background-image: url('../../assets/images/footerBg.png');
+    background-image: url('../../assets/images/about/footerBg.avif');
     color: #adb5bd;
     font-family: sansation;
     background-size: cover;

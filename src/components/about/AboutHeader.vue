@@ -22,7 +22,7 @@ export default {
             </div>
             <div class="header-right">
                 <img alt="Bagheera carrom, About Bagheera Carrom" class="about-header-poster"
-                    src="../../assets/images/about-poster1.png" />
+                    src="../../assets/images/about/headerPoster.avif" />
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@ export default {
 .about {
     padding-inline: 2em;
     padding-block: 1em;
-    background-image: url('../../assets/images/footerBg.png');
+    background-image: url('../../assets/images/about/footerBg.avif');
     color: #adb5bd;
     font-family: sansation;
     background-size: cover;

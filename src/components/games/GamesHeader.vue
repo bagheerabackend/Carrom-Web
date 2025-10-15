@@ -9,7 +9,7 @@
         </div>
         <div class="game-header-right">
             <img alt="Bagheera carrom, About Bagheera Carrom" class="game-header-poster"
-                src="../../assets/images/game-header.png" />
+                src="../../assets/images/game/gameHeader.avif" />
         </div>
     </div>
 </template>
@@ -18,7 +18,7 @@
 .game-header {
     padding-inline: 2em;
     padding-block: 1em;
-    background-image: url('../../assets/images/bg2.png');
+    background-image: url('../../assets/images/bg2.avif');
     color: #adb5bd;
     font-family: sansation;
     background-size: cover;

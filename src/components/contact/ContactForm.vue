@@ -124,7 +124,7 @@ export default {
 .contact-footer {
     padding-inline: 2em;
     padding-block: 4em;
-    background-image: url('../../assets/images/pantherImg.svg');
+    background-image: url('../../assets/images/home/pantherImg.avif');
     color: #adb5bd;
     font-family: sansation;
     background-size: cover;
