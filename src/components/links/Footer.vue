@@ -16,6 +16,11 @@ const year = new Date().getFullYear();
                 <a href="/contact">Contact</a>
             </div>
             <div class="legal">
+                <h2>Products</h2>
+                <a href="/" target="_blank">Carrom</a>
+                <a href="https://bagheeraludo.com" target="_blank">Ludo</a>
+            </div>
+            <div class="legal">
                 <h2>Legal</h2>
                 <a href="/privacy-policy">Privacy Policy</a>
                 <a href="/terms-and-conditions">Terms & Conditions</a>
