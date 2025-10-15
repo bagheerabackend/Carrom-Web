@@ -9,7 +9,7 @@
             </div>
             <div class="privacy-header-right">
                 <img alt="Bagheera carrom, About Bagheera Carrom" class="privacy-logo"
-                    src="../../assets/images/logo.png" />
+                    src="../../assets/images/logo.avif" />
             </div>
         </div>
         <div class="privacy-content">

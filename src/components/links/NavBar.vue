@@ -25,7 +25,7 @@
         <div class="nav-setting">
             <div class="nav-items">
                 <a href="/" @click.prevent="navigate('/')" :class="{ active: currentpath === '/' }"><img
-                        alt="Bagheera carrom" class="logo" src="../../assets/images/logo.png" /></a>
+                        alt="Bagheera carrom" class="logo" src="../../assets/images/logo.avif" /></a>
                 <div class="nav-links">
                     <a href="/" @click.prevent="navigate('/')" :class="{ active: currentpath === '/' }">Home</a>
                     <a href="/about" @click.prevent="navigate('/about')"

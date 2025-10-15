@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
     <div class="footer">
         <div class="footer-row">
             <div class="icon">
-                <img alt="Bagheera carrom" class="logo" src="../../assets/images/logo.png" />
+                <img alt="Bagheera carrom" class="logo" src="../../assets/images/logo.avif" />
             </div>
             <div class="links">
                 <h2>Navigation</h2>
