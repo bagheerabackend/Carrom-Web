@@ -24,7 +24,7 @@ const year = new Date().getFullYear();
                 <h2>Legal</h2>
                 <a href="/privacy-policy">Privacy Policy</a>
                 <a href="/terms-and-conditions">Terms & Conditions</a>
-                <a href="/refund-policy">Refund Policy</a>
+                <!-- <a href="/refund-policy">Refund Policy</a> -->
             </div>
         </div>
         <div class="copyright-banner">
