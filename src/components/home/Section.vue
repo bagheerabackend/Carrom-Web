@@ -21,7 +21,8 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
                 <div class="poster-container">
                     <img alt="Bagheera carrom 1" class="section-game-poster mob-hidden"
                         src="../../assets/images/home/poster1.avif" />
-                    <img alt="Bagheera carrom 3" class="section-game-poster" src="../../assets/images/home/poster3.avif" />
+                    <img alt="Bagheera carrom 3" class="section-game-poster"
+                        src="../../assets/images/home/poster3.avif" />
                     <img alt="Bagheera carrom 2" class="section-game-poster mob-hidden"
                         src="../../assets/images/home/poster2.avif" />
                 </div>
@@ -31,7 +32,9 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
         <div class="last-panel">
             <div class="left-panel">
                 <img alt="Bagheera carrom" class="section-text-2" src="../../assets/images/home/sectionText.avif" />
-                <DownloadBtns />
+                <div class="download-btn-home">
+                    <DownloadBtns />
+                </div>
             </div>
             <div class="right-panel">
                 <img alt="Bagheera carrom" class="panther-img" src="../../assets/images/home/pantherImg.avif" />
@@ -113,6 +116,10 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
     right: 25%;
 }
 
+.download-btn-home {
+    display: none;
+}
+
 .last-panel {
     background: #000;
     margin-top: 5em;
@@ -138,6 +145,10 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
 
 /* Lap */
 @media (min-width: 1024px) and (max-width: 1919px) {
+    .download-btn-home {
+        display: inline;
+    }
+
     .desc {
         display: inline;
     }
@@ -217,6 +228,10 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
 
 /* H-Lap */
 @media (min-width: 1920px) {
+    .download-btn-home {
+        display: inline;
+    }
+
     .desc {
         display: inline;
     }
