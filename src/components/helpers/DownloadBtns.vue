@@ -56,6 +56,16 @@
     text-decoration: none;
 }
 
+.download-btn-about:hover {
+    background-color: #fcc440;
+    color: black;
+    transition: 0.3s;
+}
+
+.download-btn-about:hover svg path {
+    fill: black;
+}
+
 .download-btn-about span {
     display: flex;
     flex-direction: column;
