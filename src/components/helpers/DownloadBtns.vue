@@ -13,7 +13,7 @@
                 Google Play
             </span>
         </a> -->
-        <a href="https://github.com/bagheerabackend/Carrom-Web/releases/download/apk/carrom-android.apk" class="download-btn-about" download>
+        <a href="https://github.com/bagheerabackend/Carrom-Web/releases/download/apk/BagheeraCarrom.apk" class="download-btn-about" download>
             <svg fill="#fcc440" width="5em" height="5em" viewBox="-3 -2 24 24" xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMinYMin" class="jam jam-android">
                 <path

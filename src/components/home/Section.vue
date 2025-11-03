@@ -16,6 +16,9 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
         
         <div class="game">
             <h3>Try out our games now...</h3>
+            <div class="btn">
+                <DownloadBtns />
+            </div>
             <div class="game-sec">
                 <img alt="Bagheera carrom" class="section-game-mob" src="../../assets/images/home/posterBg.avif" />
                 <div class="poster-container">
@@ -139,6 +142,12 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
 
 .panther-img {
     width: 100%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {}
