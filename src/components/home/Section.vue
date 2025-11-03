@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import DownloadBtns from '../helpers/DownloadBtns.vue';
-
 </script>
 
 <template>
@@ -13,7 +12,8 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
             <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/fair.avif" />
             <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/support.avif" />
         </div>
-
+        
+        
         <div class="game">
             <h3>Try out our games now...</h3>
             <div class="game-sec">
@@ -301,6 +301,7 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
 
     .section-text-2 {
         width: 80%;
+        margin-bottom: 1em;
     }
 
     .panther-img {

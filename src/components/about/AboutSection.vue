@@ -34,6 +34,7 @@
                     <p>"Building trust through compassion and support"</p>
                 </div>
             </div>
+            
         </div>
     </div>
 </template>
