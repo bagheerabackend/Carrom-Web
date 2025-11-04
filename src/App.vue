@@ -1,14 +1,14 @@
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, defineAsyncComponent } from 'vue'
 import NavBar from './components/links/NavBar.vue'
 import Footer from './components/links/Footer.vue'
 import Home from './components/home/Home.vue'
-import About from './components/about/About.vue'
-import Games from './components/games/Games.vue'
-import Contact from './components/contact/Contact.vue'
-import Privacy from './components/legal/Privacy.vue'
-import Refund from './components/legal/Refund.vue'
-import Terms from './components/legal/Terms.vue'
+const About = defineAsyncComponent(() => import('./components/about/About.vue'))
+const Games = defineAsyncComponent(() => import('./components/games/Games.vue'))
+const Contact = defineAsyncComponent(() => import('./components/contact/Contact.vue'))
+const Privacy = defineAsyncComponent(() => import('./components/legal/Privacy.vue'))
+const Refund = defineAsyncComponent(() => import('./components/legal/Refund.vue'))
+const Terms = defineAsyncComponent(() => import('./components/legal/Terms.vue'))
 
 const routes = {
   '/': {
@@ -97,7 +97,9 @@ const currentView = computed(() => {
     <header>
       <NavBar :currentpath="currentPath" />
     </header>
-    <component :is="currentView" />
+    <KeepAlive :max="5">
+      <component :is="currentView" :key="currentPath" />
+    </KeepAlive>
     <footer>
       <Footer />
     </footer>

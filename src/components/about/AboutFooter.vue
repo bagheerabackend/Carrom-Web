@@ -6,26 +6,26 @@
             Our vision is to become a global hub for classic and casual games like Ludo, Carrom, and more, while
             constantly innovating to keep the excitement alive.
         </p>
-        <img class="footer-img" alt="Bagheera carrom, About Bagheera Carrom"
-            src="../../assets/images/about/footerPoster.avif" />
+        <img class="footer-img" alt="Bagheera Carrom community and gameplay"
+            src="../../assets/images/about/footerPoster.avif" loading="lazy" decoding="async"  />
         <div class="footer-points">
             <div class="footer-contents">
-                <img alt="Bagheera carrom, About Bagheera Carrom" class="footer-point-imgs"
-                    src="../../assets/images/about/people.svg" />
+                <img alt="Inclusive gaming for all players" class="footer-point-imgs"
+                    src="../../assets/images/about/people.svg" loading="lazy" decoding="async"  />
                 <h2>Inclusive Gaming</h2>
                 <p>Bagheera Carrom welcomes players of all backgrounds and skill levels. We believe in creating a
                     supportive and fun environment where everyone can enjoy the game.</p>
             </div>
             <div class="footer-contents">
-                <img alt="Bagheera carrom, About Bagheera Carrom" class="footer-point-imgs"
-                    src="../../assets/images/about/security.svg" />
+                <img alt="Bagheera carrom, Fair play and security" class="footer-point-imgs"
+                    src="../../assets/images/about/security.svg" loading="lazy" decoding="async"  />
                 <h2>Fair Play</h2>
                 <p>Integrity is at the heart of our platform. Our anti-cheat mechanisms and transparent gameplay rules
                     ensure that every match is fair and competitive.</p>
             </div>
             <div class="footer-contents">
-                <img alt="Bagheera carrom, About Bagheera Carrom" class="footer-point-imgs"
-                    src="../../assets/images/about/rocket.svg" />
+                <img alt="Fast-paced action gameplay, Bagheera carrom, About Bagheera Carrom" class="footer-point-imgs"
+                    src="../../assets/images/about/rocket.svg" loading="lazy" decoding="async"  />
                 <h2>Fast-Paced Action</h2>
                 <p>Enjoy quick matchmaking, responsive gameplay, and exciting challenges. Bagheera Carrom is built for
                     players who love thrilling, real-time action.</p>

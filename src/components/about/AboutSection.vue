@@ -9,7 +9,7 @@
         <div class="section-content">
             <div class="section-content-items">
                 <div class="content-img">
-                    <img alt="Bagheera carrom, About Bagheera Carrom" src="../../assets/images/about/about-creativity.svg" />
+                    <img alt="Creative innovation in Bagheera Carrom" src="../../assets/images/about/about-creativity.svg" loading="lazy" decoding="async" />
                 </div>
                 <div style="text-align: center;">
                     <h2>CREATIVE</h2>
@@ -18,7 +18,7 @@
             </div>
             <div class="section-content-items">
                 <div class="content-img">
-                    <img alt="Bagheera carrom, About Bagheera Carrom" src="../../assets/images/about/about-extension.svg" />
+                    <img alt="Extensive global reach of Bagheera Carrom" src="../../assets/images/about/about-extension.svg" loading="lazy" decoding="async"  />
                 </div>
                 <div style="text-align: center;">
                     <h2>EXTENSIVE</h2>
@@ -27,7 +27,7 @@
             </div>
             <div class="section-content-items">
                 <div class="content-img">
-                    <img alt="Bagheera carrom, About Bagheera Carrom" src="../../assets/images/about/about-caring.svg" />
+                    <img alt="Caring community support at Bagheera Carrom" src="../../assets/images/about/about-caring.svg" loading="lazy" decoding="async"  />
                 </div>
                 <div style="text-align: center;">
                     <h2>CARING</h2>

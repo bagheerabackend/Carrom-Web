@@ -1,16 +1,20 @@
 <script setup lang="ts">
-import DownloadBtns from '../helpers/DownloadBtns.vue';
+import { defineAsyncComponent } from 'vue';
+
+const DownloadBtns = defineAsyncComponent(() => 
+  import('../helpers/DownloadBtns.vue')
+);
 </script>
 
 <template>
     <div class="section">
         <div class="desc">
-            <img alt="Bagheera carrom" class="section-desc" src="../../assets/images/home/sectionDesc.avif" />
+            <img alt="Bagheera carrom" class="section-desc" src="../../assets/images/home/sectionDesc.avif" loading="lazy" decoding="async" />
         </div>
         <div class="desc-mobile">
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/offer.avif" />
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/fair.avif" />
-            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/support.avif" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/offer.avif" loading="lazy" decoding="async" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/fair.avif" loading="lazy" decoding="async" />
+            <img alt="Bagheera carrom" class="section-desc-mob" src="../../assets/images/home/support.avif" loading="lazy" decoding="async" />
         </div>
         
         
@@ -20,27 +24,27 @@ import DownloadBtns from '../helpers/DownloadBtns.vue';
                 <DownloadBtns />
             </div>
             <div class="game-sec">
-                <img alt="Bagheera carrom" class="section-game-mob" src="../../assets/images/home/posterBg.avif" />
+                <img alt="Bagheera carrom" class="section-game-mob" src="../../assets/images/home/posterBg.avif" loading="lazy" decoding="async" />
                 <div class="poster-container">
                     <img alt="Bagheera carrom 1" class="section-game-poster mob-hidden"
-                        src="../../assets/images/home/poster1.avif" />
+                        src="../../assets/images/home/poster1.avif" loading="eager" decoding="async" />
                     <img alt="Bagheera carrom 3" class="section-game-poster"
-                        src="../../assets/images/home/poster3.avif" />
+                        src="../../assets/images/home/poster3.avif" loading="eager" decoding="async" />
                     <img alt="Bagheera carrom 2" class="section-game-poster mob-hidden"
-                        src="../../assets/images/home/poster2.avif" />
+                        src="../../assets/images/home/poster2.avif" loading="eager" decoding="async" />
                 </div>
             </div>
         </div>
 
         <div class="last-panel">
             <div class="left-panel">
-                <img alt="Bagheera carrom" class="section-text-2" src="../../assets/images/home/sectionText.avif" />
+                <img alt="Bagheera carrom" class="section-text-2" src="../../assets/images/home/sectionText.avif" loading="lazy" decoding="async"  />
                 <div class="download-btn-home">
                     <DownloadBtns />
                 </div>
             </div>
             <div class="right-panel">
-                <img alt="Bagheera carrom" class="panther-img" src="../../assets/images/home/pantherImg.avif" />
+                <img alt="Bagheera carrom" class="panther-img" src="../../assets/images/home/pantherImg.avif" loading="lazy" decoding="async" />
             </div>
         </div>
     </div>

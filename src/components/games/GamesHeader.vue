@@ -1,3 +1,11 @@
+<script setup>
+import { defineAsyncComponent } from 'vue';
+
+const DownloadBtns = defineAsyncComponent(() => 
+    import('../helpers/DownloadBtns.vue')
+);
+</script>
+
 <template>
     <div class="game-header">
         <div class="game-header-left">
@@ -8,8 +16,8 @@
             <DownloadBtns />
         </div>
         <div class="game-header-right">
-            <img alt="Bagheera carrom, About Bagheera Carrom" class="game-header-poster"
-                src="../../assets/images/game/gameHeader.avif" />
+            <img alt="Bagheera Games collection showcase" class="game-header-poster"
+                src="../../assets/images/game/gameHeader.avif"  loading="eager" decoding="async" />
         </div>
     </div>
 </template>

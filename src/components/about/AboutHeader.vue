@@ -1,10 +1,9 @@
-<script>
-import DownloadBtns from '../helpers/DownloadBtns.vue';
-export default {
-    components: {
-        DownloadBtns,
-    },
-};
+<script setup lang="ts">
+import { defineAsyncComponent } from 'vue';
+
+const DownloadBtns = defineAsyncComponent(() => 
+    import('../helpers/DownloadBtns.vue')
+);
 </script>
 
 <template>
@@ -21,8 +20,8 @@ export default {
                 <DownloadBtns />
             </div>
             <div class="header-right">
-                <img alt="Bagheera carrom, About Bagheera Carrom" class="about-header-poster"
-                    src="../../assets/images/about/headerPoster.avif" />
+                <img alt="About Bagheera Carrom - Team and mission"  class="about-header-poster"
+                    src="../../assets/images/about/headerPoster.avif" loading="eager" decoding="async" />
             </div>
         </div>
     </div>

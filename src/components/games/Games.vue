@@ -1,6 +1,7 @@
 <script setup>
-import GamesData from './GamesData.vue';
+import { defineAsyncComponent } from 'vue';
 import GamesHeader from './GamesHeader.vue';
+const GamesData = defineAsyncComponent(() => import('./GamesData.vue'));
 </script>
 
 <template>

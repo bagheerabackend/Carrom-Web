@@ -1,27 +1,21 @@
 <script setup>
 import { fetchGame } from '../../../services/gameSevice.js'
-import DownloadBtns from '../helpers/DownloadBtns.vue';
-
 const { data, error } = fetchGame()
-const url = 'https://api.bagheeracarrom.com/'
 </script>
 
 <template>
     <div class="game-section">
-        <div v-if="error">Error: {{ error.message }}</div>
-        <div v-else-if="!data">No Games Found</div>
+        <div v-if="error" class="error">🕹️ New adventures loading… please wait!</div>
+        <div v-else-if="!data">🕹️ New adventures loading… please wait!</div>
         <div v-else>
             <div class="game-items" v-for="(game, index) in data" :key="index"
                 :style="{ backgroundImage: `url(${url}${game.bg_image})` }"
                 :class="{ 'left-image': index % 2 === 0, 'right-image': index % 2 !== 0 }">
-                <img :src="`${url}${game.game_image}`" alt="" class="game-image" />
+                <img :src="`${url}${game.game_image}`" alt="" class="game-image" loading="lazy" decoding="async"/>
                 <div class="game-content">
                     <span class="live-info" :class="[game.live && 'live']">LIVE - AVAILABLE NOW</span>
                     <h1>{{ game.name }}</h1>
                     <p>{{ game.description }}</p>
-                    <div class="download-btns" :class="[game.live && 'live']">
-                        <DownloadBtns />
-                    </div>
                 </div>
             </div>
         </div>
@@ -29,6 +23,13 @@ const url = 'https://api.bagheeracarrom.com/'
 </template>
 
 <style>
+.error {
+    color: rgb(139, 139, 139);
+    font-size: 20pt;
+    text-align: center;
+    margin-block: 1em;
+}
+
 .game-section {
     color: #adb5bd;
     font-family: sansation;

@@ -1,8 +1,8 @@
 <template>
     <div class="home">
-        <img alt="Bagheera carrom" class="home-image2-mob" src="../../assets/images/home/headerText.avif" />
-        <img alt="Bagheera carrom" class="home-image" src="../../assets/images/home/model.avif" />
-        <img alt="Bagheera carrom" class="home-image2" src="../../assets/images/home/headerText.avif" />
+        <img alt="Bagheera carrom" class="home-image2-mob" src="../../assets/images/home/headerText.avif" loading="lazy" decoding="async" />
+        <img alt="Bagheera carrom" class="home-image" src="../../assets/images/home/model.avif" loading="eager" decoding="async" />
+        <img alt="Bagheera carrom" class="home-image2" src="../../assets/images/home/headerText.avif" loading="lazy" decoding="async" />
     </div>
 </template>
 
