@@ -2,9 +2,9 @@
 import { ref, computed, watch, defineAsyncComponent } from 'vue'
 import NavBar from './components/links/NavBar.vue'
 import Footer from './components/links/Footer.vue'
+import Games from './components/games/Games.vue'
 import Home from './components/home/Home.vue'
 const About = defineAsyncComponent(() => import('./components/about/About.vue'))
-const Games = defineAsyncComponent(() => import('./components/games/Games.vue'))
 const Contact = defineAsyncComponent(() => import('./components/contact/Contact.vue'))
 const Privacy = defineAsyncComponent(() => import('./components/legal/Privacy.vue'))
 const Refund = defineAsyncComponent(() => import('./components/legal/Refund.vue'))
