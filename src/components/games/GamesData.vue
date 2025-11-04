@@ -1,6 +1,7 @@
 <script setup>
 import { fetchGame } from '../../../services/gameSevice.js'
 const { data, error } = fetchGame()
+const url = 'https://api.bagheeracarrom.com/api/web/games'
 </script>
 
 <template>
