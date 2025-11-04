@@ -12,7 +12,7 @@ const url = 'https://api.bagheeracarrom.com/api/web/games'
             <div class="game-items" v-for="(game, index) in data" :key="index"
                 :style="{ backgroundImage: `url(${url}${game.bg_image})` }"
                 :class="{ 'left-image': index % 2 === 0, 'right-image': index % 2 !== 0 }">
-                <img :src="`${url}${game.game_image}`" alt="" class="game-image" loading="lazy" decoding="async" />
+                <img :src="`${url}${game.game_image}`" :alt="`${game.name} game preview`"  class="game-image" loading="lazy" decoding="async" />
                 <div class="game-content">
                     <span class="live-info" :class="[game.live && 'live']">LIVE - AVAILABLE NOW</span>
                     <h1>{{ game.name }}</h1>
