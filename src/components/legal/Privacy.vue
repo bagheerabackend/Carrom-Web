@@ -14,29 +14,50 @@
         <div class="privacy-content">
             <div class="privacy-items">
                 <h2>1. Information We Collect</h2>
+                <h3>Personal Information</h3>
                 <ul>
                     <li>
                         <div class="items-row">
-                            <p>Personal Information: Email Address, Phone Number, Name (only if you create an account)
-                            </p>
+                            <p>Phone number: Collected only for OTP based login and account security.</p>
                         </div>
                     </li>
                     <li>
                         <div class="items-row">
-                            <p>Device Information: Device type, model, OS version, app version, IP address, Advertising
-                                ID.</p>
+                            <p>Email Address: Collected only for account-related notifications and customer support.
+                                Email is not used for marketing or promotional purposes.</p>
                         </div>
                     </li>
                     <li>
                         <div class="items-row">
-                            <p>Gameplay Data: Game progress, match history, scores, achievements.</p>
+                            <p>Name: Required to create and identify a user account within the app, display player
+                                identity during gameplay, and provide core multiplayer functionality.</p>
+                        </div>
+                    </li>
+                </ul>
+                <h3>Device Information</h3>
+                <div class="items-row">
+                    <p>We may collect device-related information such as device type, model, OS version, app version, IP
+                        address, Advertising ID. This information is used to ensure proper app functionality, improve
+                        performance, analytics and debugging.</p>
+                </div>
+                <h3>Game Play Data</h3>
+                <div class="items-row">
+                <p>We collect game-play related data such as game progress, scores, and match history to enable core
+                    gameplay features and improve user experience.</p>
+                </div>
+                <h3>Third Party Services</h3>
+                <div class="items-row">
+                <p>We may use third-party services that collect data as part of their functionality, including:</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="items-row">
+                            <p>Apple Game Center</p>
                         </div>
                     </li>
                     <li>
                         <div class="items-row">
-                            <p>Third-Party Services: We may use Google Play Games, Apple Game Center, Firebase, and Ad
-                                networks (AdMob, Unity
-                                Ads).</p>
+                            <p>Google Play Games</p>
                         </div>
                     </li>
                 </ul>
@@ -281,12 +302,13 @@
     .privacy-items h2 {
         font-size: 20pt;
     }
-/* 
+
+    /* 
     .items-head {
         margin-top: 1em;
         margin-bottom: 1.5em;
     } */
-/* 
+    /* 
     .items-row {
         display: flex;
         align-items: center;
